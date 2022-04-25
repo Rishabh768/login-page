@@ -1,0 +1,64 @@
+body{
+background-image: url('./images//b4.png');
+background-repeat: no-repeat;
+background-size: cover;
+color: black;
+font-family: 'Lato', sans-serif;
+}
+.card{
+    background:rgba(128, 128,128, .7)
+    
+}
+.login{
+    font-weight: 400;
+}
+.btn:hover{
+    background-color:rgb(50, 50, 50);
+    
+}
+
+.form-control:focus { 
+ box-shadow: 2px 2px 2px  2px;
+    border: 1px solid black;
+}
+
+.form-check-input:focus{
+box-shadow: none;
+}
+.form-check-input:checked {
+    background-color: black;
+    border-color: white;
+}
+
+.resetPassword{
+text-align: right;
+}
+
+ a{
+    color: black;
+    text-decoration: none;
+    font-size: .8rem;
+}
+a:hover{
+    color: white;
+}
+
+/*********Media query for device widths ******/
+@media (max-width:576px) {
+    .card-width{
+        width: 100%;
+    }
+}
+
+@media (min-width:577px) and (max-width:768px) {
+    .card-width{
+        width: 50%;
+    }
+}
+
+@media (min-width:768px)   {
+    .card-width{
+        width: 25%;
+    }
+}
+
